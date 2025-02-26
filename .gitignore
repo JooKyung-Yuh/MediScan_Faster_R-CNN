@@ -97,4 +97,18 @@ themes/
 *.temp
 .*.swp
 .*.swo
-*~ 
+*~
+
+# 데이터 파일
+data/images/*
+data/annotations/*
+!data/images/.gitkeep
+!data/annotations/.gitkeep
+
+# 체크포인트
+checkpoints/*
+!checkpoints/.gitkeep
+
+# 결과
+results/*
+!results/.gitkeep 
